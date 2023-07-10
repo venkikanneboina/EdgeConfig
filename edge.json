@@ -1,0 +1,19 @@
+{
+   "version":"1.0",
+   "envConfig":{
+      "eval":{      
+         "flowhooks":[
+            {
+               "name":"PreProxyFlowHook",
+               "continueOnError":"true",
+               "sharedFlow":"test"
+            },
+            {
+               "name":"PreTargetFlowHook",
+               "continueOnError":"true",
+               "sharedFlow":"test"
+            }
+         ]
+      }
+   }
+}
